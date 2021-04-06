@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+	<title>JS/projet_02/exercice_03</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+    <h1 class="">JS_projet_02 exercice_02</h1>
+    <p>A chaque touche saisie sur le clavier, afficher dans une modale le caractère saisi.</p>
+    <div class="row col-6 p-3 align-content-center" >
+      <form class="" action="index.html" method="post">
+      <label for="name">Votre nom :</label>
+			<!-- l'événement oninput permet d'exécuter un script JS lorsqu'un utilisateur se sert d'un champ d'entrée,
+			 ici on appelera la fonction getInput-->
+      <input oninput="getInput()" type="text" id="input" name="name">
+      </form>
+    </div>
+  </div>
+	<script src="app.js">
+	</script>
+</body>
+</html>
